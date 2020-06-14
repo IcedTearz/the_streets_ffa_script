@@ -1,32 +1,7 @@
-- - Don't make fun of code I'm new (:
+-- Don't make fun of code I'm new (:
 game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
     if KeyPressed == "r" then
-        game.Players.LocalPlayer.Character["Right Arm"]:Destroy()
-        end
-end)
-game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
-    if KeyPressed == "r" then
-        game.Players.LocalPlayer.Character["Left Arm"]:Destroy()
-        end
-end)
-game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
-    if KeyPressed == "r" then
-        game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
-        end
-end)
-game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
-    if KeyPressed == "r" then
-        game.Players.LocalPlayer.Character["Left Leg"]:Destroy()
-        end
-end)
-game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
-    if KeyPressed == "r" then
-        game.Players.LocalPlayer.Character["Head"]:Destroy()
-        end
-end)
-game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
-    if KeyPressed == "r" then
-        game.Players.LocalPlayer.Character["Torso"]:Destroy()
+        game.Players.LocalPlayer.Character:Destroy()
         end
 end)
 local amount = fovamount
