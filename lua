@@ -39,7 +39,7 @@ end)
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
 		    Title = "FFA Script";
-		    Text = "This script was made by IcedTearz Thanks for using!! If you have any problems dm, Ice#1324.";
+		    Text = "script made by IcedTearz, Ice#1324";
 			})
 local decalsyeeted = true 
 local g = game
